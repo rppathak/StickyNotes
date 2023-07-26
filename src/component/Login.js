@@ -38,8 +38,9 @@ const Login = (props) => {
         <>
             <div style={{ marginTop: "100px" }}>
                 <div className="container text-center my-4"><h2>Login To Continue</h2></div>
-                <div className="col-md-5 mx-auto my-auto">
-                    <div className="card shadow p-3 mb-5 rounded card-body ">
+                <div>
+                    <div className="card shadow-sm p-3 mb-5 rounded card-body ">
+                    <img src='notes.png' alt='' style={{width:'40px',margin:'auto',marginTop:'10px',marginBottom:0}} className='logo'/>
                         <form onSubmit={handleSubmit}>
                             <div className="mb-3">
                                 <label htmlFor="email" className="form-label">Email address</label>

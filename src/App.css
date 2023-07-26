@@ -1,3 +1,13 @@
 /* body{
   background: beige;
 } */
+.login {
+  background-color: rgb(255, 223, 118);
+  min-height: 100vh; /* minimum height of page would be equal to available view-port height */
+}
+.card{
+  width: 400px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
